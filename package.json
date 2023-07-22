@@ -1,0 +1,26 @@
+{
+  "name": "archiver",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "archive": "node lib/archive.js",
+    "view": "node lib/view.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/shelljs": "^0.8.12",
+    "@types/source-map-support": "^0.5.6",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "puppeteer": "^20.4.0",
+    "shelljs": "^0.8.5",
+    "source-map-support": "^0.5.21"
+  }
+}
